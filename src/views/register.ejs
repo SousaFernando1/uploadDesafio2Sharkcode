@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styleCadastro.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+
+    <title>Cadastro</title>
+</head>
+<body>
+    <div id="app">
+        <div class="register-box">
+            <div class="arrow-back">
+            <button onclick="history.back()">
+                <img src="/img/arrow-back.svg" alt="Voltar">
+            </button>
+            </div>
+            <div class="content">
+                <div class="title">
+                    <h1>Cadastro</h1>
+                    <p>Preencha os dados abaixo
+                        para começar.</p>
+        
+                </div>
+                <form class="form"action="/registerSuccess">
+                    <div class="input-group">
+                        <label for="iFirstName">Nome</label>
+                        <input type="text" name="name" id="iFirstName">
+                    </div>
+                    <div class="input-group">
+                        <label for="iLastName">Sobrenome</label>
+                        <input type="text" name="lastname" id="iLastName">
+                    </div>
+                    <div class="input-group">
+                        <label for="iEmail">E-mail</label>
+                        <input type="text" name="email" id="iEmail">
+                    </div>
+                    <div class="input-group">
+                        <label for="iPassword">Senha</label>
+                        <input type="text" name="password" id="iPassword">
+                        <span class="showPassword eye-closed"></span>
+                    </div>
+                    <input class="checkbox" id="check" type="checkbox">
+                    <label for="check" class="checkbox-label">Lembrar-me</label>
+                    <button type="submit">Concluir cadastro</button>
+                </form>
+
+
+            </div>
+           
+        </div>
+        <div class="monitora-box">
+            <div class="logo">
+                <h2> Monitora.com</h2>
+                <p>Tornando seu monitoramento mais descomplicado.</p>
+
+            </div>
+           
+        </div>
+    </div>
+    <script src="/js/Cadastro.js"></script>
+</body>
+</html>

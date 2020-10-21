@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+        <title>Pagina Inicial</title>
+        <link rel="stylesheet" href="./css/styleHome.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class= " column first-column">
+                    <div class="esquerda">
+                    <h2 class="first-title">Monitora.com</h2>
+                    <p class="description">Tornando seu monitoramento mais descomplicado.</p>
+                    </div>
+                    <figure class="logo">
+                        <img src="/img/logo.svg" alt="logo">
+                    </figure>
+                </div>
+                <div class="column second-column">
+                    <h2 class="second-title">Fazer Login</h2>
+                    <form action="profile" class="login">
+                        <div class="input-group">
+                        <label for="iemail">E-mail</label>
+                        <input type="email" name="name" id="iemail">
+                        </div>
+                        <div class="input-group">
+                        <label for="ipassword">Senha</label>
+                        <input type="password" name="password" id="ipassword">
+                        <span class="show-password eye-closed"></span>
+                        </div>
+                        <div class="options">
+                            <div class="input-checkbox">
+                            <input type="checkbox" name="remember" id="checkbox" checked>
+                            <label for="checkbox" class="checkbox">Lembrar-me</label>
+                            </div>
+                            <a href="recuperarsenha" class="forgot">Esqueci minha senha</a>
+                        </div>
+                        <button disabled type="submit" class="btn">Entrar</button>
+                    </form>
+                    <div class="bottom">
+                        <h1>Opa! Ainda não possui cadastro?</h1>
+                        <a href="register" class="cadastro">cadastre-se agora</a>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        <script src="/js/handleInput.js"></script>
+    </body>
+</html>

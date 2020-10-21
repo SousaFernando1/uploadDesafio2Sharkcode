@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #E14B56 ;
+    background-image: url(/img/backgroundSuccess.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    margin-top: 40px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 42px;
+
+    text-align: center;
+
+
+    color: #FFFFFF;
+}
+
+.container button{
+    margin-top: 40px;
+    width: 207px;
+    height: 56px;
+    left: 616px;
+    top: 557px;
+
+    background: #027373;
+    border-radius: 8px;
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+
+    text-align: center;
+
+
+    color: #FFFFFF;
+
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    background-color:  #E14B56;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container #iemail{
+    height: 40px;
+    width: 900px;
+}
+
+.container h2{
+
+    font-size: 50px;
+}
+
+.content input{
+    border: 0px;
+    background-color: #E6E6F0;
+}
+
+.btn{
+    margin-top: 50px;
+    height: 40px;
+    width: 300px;
+
+    border: 0px;
+    border-radius: 9px;
+    background: #027373;
+
+}
